@@ -1,0 +1,21 @@
+.game-container{
+    text-align: center;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 1px black solid;
+    box-shadow: 0 0 0 2px;
+    cursor: pointer;
+    font-size: 3rem;
+    font-family:cursive;
+}
+.cell-container{
+    display: grid;
+    width: 225px;
+    grid-template-columns: repeat(3,1fr);
+    margin: auto;
+}
+button{
+
+}
